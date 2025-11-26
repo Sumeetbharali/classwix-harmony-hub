@@ -68,7 +68,7 @@ const Navbar = () => {
             </Button>
             <Button
               className="gradient-primary text-white hover:opacity-90 transition-opacity shadow-medium"
-              onClick={() => window.open("https://www.classwix.com", "_blank")}
+              onClick={() => window.open("https://www.classwix.com/book-a-trial", "_blank")}
             >
               Free Trial
             </Button>
