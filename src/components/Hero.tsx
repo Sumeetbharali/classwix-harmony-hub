@@ -49,7 +49,7 @@ const Hero = () => {
               <Button
                 size="lg"
                 className="gradient-primary text-white hover:opacity-90 transition-all hover:shadow-glow text-lg px-8 py-6 shadow-large"
-                onClick={() => window.open("https://www.classwix.com", "_blank")}
+                onClick={() => window.open("https://www.classwix.com/book-a-trial", "_blank")}
               >
                 Book Your Free Trial Lesson
               </Button>

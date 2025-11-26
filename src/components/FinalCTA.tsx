@@ -29,7 +29,7 @@ const FinalCTA = () => {
             <Button
               size="lg"
               className="gradient-primary text-white hover:opacity-90 transition-opacity text-lg px-10 py-7 shadow-large group"
-              onClick={() => window.open("https://www.classwix.com", "_blank")}
+              onClick={() => window.open("https://www.classwix.com/book-a-trial", "_blank")}
             >
               Book Your Free Trial Now
               <ArrowRight className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" />

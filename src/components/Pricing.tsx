@@ -117,7 +117,7 @@ const Pricing = () => {
                     ? "gradient-primary text-white"
                     : "bg-muted text-foreground hover:bg-muted/80"
                 }`}
-                onClick={() => window.open("https://www.classwix.com", "_blank")}
+                onClick={() => window.open("https://www.classwix.com/book-a-trial", "_blank")}
               >
                 Start Free Trial
               </Button>
