@@ -4,15 +4,12 @@ import heroImage from "@/assets/hero-music-learning.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      {/* Animated background gradient */}
-      <div className="absolute inset-0 gradient-hero opacity-10"></div>
-      
+    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-gradient-to-br from-white via-blue-50/30 to-purple-50/30">
       {/* Decorative musical notes */}
-      <div className="absolute top-1/4 left-10 opacity-10 animate-pulse">
+      <div className="absolute top-1/4 left-10 opacity-5 animate-pulse">
         <Music2 className="w-20 h-20 text-primary" />
       </div>
-      <div className="absolute bottom-1/4 right-10 opacity-10 animate-pulse" style={{ animationDelay: "1s" }}>
+      <div className="absolute bottom-1/4 right-10 opacity-5 animate-pulse" style={{ animationDelay: "1s" }}>
         <Music2 className="w-16 h-16 text-secondary" />
       </div>
 
@@ -51,7 +48,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button
                 size="lg"
-                className="gradient-primary text-white hover:opacity-90 transition-opacity text-lg px-8 py-6 shadow-large"
+                className="gradient-primary text-white hover:opacity-90 transition-all hover:shadow-glow text-lg px-8 py-6 shadow-large"
                 onClick={() => window.open("https://www.classwix.com", "_blank")}
               >
                 Book Your Free Trial Lesson
@@ -59,7 +56,7 @@ const Hero = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="text-lg px-8 py-6 border-2"
+                className="text-lg px-8 py-6 border-2 hover:border-primary transition-colors"
                 onClick={() => window.open("https://www.classwix.com", "_blank")}
               >
                 Visit Full Website
@@ -68,11 +65,11 @@ const Hero = () => {
           </div>
 
           <div className="relative animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            <div className="absolute -inset-4 gradient-primary opacity-20 blur-3xl rounded-full"></div>
+            <div className="absolute -inset-4 gradient-primary opacity-30 blur-3xl rounded-full animate-pulse"></div>
             <img
               src={heroImage}
               alt="Student learning music online"
-              className="relative rounded-3xl shadow-large w-full object-cover"
+              className="relative rounded-3xl shadow-large w-full object-cover h-[500px]"
             />
           </div>
         </div>
