@@ -57,13 +57,6 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        brand: {
-          blue: "hsl(var(--brand-blue))",
-          purple: "hsl(var(--brand-purple))",
-          gold: "hsl(var(--brand-gold))",
-          "blue-dark": "hsl(var(--brand-blue-dark))",
-          "purple-dark": "hsl(var(--brand-purple-dark))",
-        },
       },
       fontFamily: {
         'display': ['Playfair Display', 'serif'],
