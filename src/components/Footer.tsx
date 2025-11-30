@@ -1,4 +1,5 @@
 import { Music, Mail, Phone, MapPin } from "lucide-react";
+import logo from '@/assets/white-wide.webp';
 
 const Footer = () => {
   return (
@@ -8,10 +9,11 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="gradient-primary p-2 rounded-lg">
+              {/* <div className="gradient-primary p-2 rounded-lg">
                 <Music className="h-6 w-6 text-white" />
               </div>
-              <span className="text-2xl font-display font-bold">CLASSWiX</span>
+              <span className="text-2xl font-display font-bold">CLASSWiX</span> */}
+              <img src={logo} className="w-auto h-12" />
             </div>
             <p className="text-sm text-background/80 leading-relaxed">
               Your trusted partner in music education. Learn, grow, and perform

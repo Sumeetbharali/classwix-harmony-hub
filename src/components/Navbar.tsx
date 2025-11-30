@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Music } from "lucide-react";
+import logo from '@/assets/clx120.webp';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,10 +32,11 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="gradient-primary p-2 rounded-lg">
-              <Music className="h-6 w-6 text-white" />
-            </div>
-            <span className="text-2xl font-display font-bold">CLASSWiX</span>
+            {/* <div className="gradient-primary rounded-lg"> */}
+              {/* <Music className="h-6 w-6 text-white" /> */}
+              <img src={logo} className="h-12 w-auto" />
+            {/* </div> */}
+            {/* <span className="text-2xl font-display font-bold">CLASSWiX</span> */}
           </div>
 
           <div className="hidden md:flex items-center gap-8">
